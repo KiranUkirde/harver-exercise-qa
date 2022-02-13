@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-13T16:25:28.702Z",
+    "end": "2022-02-13T16:25:36.019Z",
+    "duration": 7317,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "96f692ee-bc87-4a58-a03e-772aa7fcbb9a",
+      "title": "",
+      "fullFile": "cypress/integration/ExampleTest.js",
+      "file": "cypress/integration/ExampleTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e18701c4-6abc-469e-8e09-efda64122c68",
+          "title": "Harver Frontend Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test1-AB testing",
+              "fullTitle": "Harver Frontend Test Test1-AB testing",
+              "timedOut": null,
+              "duration": 1971,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.click_on_abtesting();",
+              "err": {},
+              "uuid": "d224312a-0102-4fd6-9029-0d448916ef4d",
+              "parentUUID": "e18701c4-6abc-469e-8e09-efda64122c68",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test2-addremove testing",
+              "fullTitle": "Harver Frontend Test Test2-addremove testing",
+              "timedOut": null,
+              "duration": 595,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.click_on_addremove();",
+              "err": {},
+              "uuid": "8764d0cf-a2b2-4e2e-967f-214f6537f77f",
+              "parentUUID": "e18701c4-6abc-469e-8e09-efda64122c68",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test3-checkboxes testing",
+              "fullTitle": "Harver Frontend Test Test3-checkboxes testing",
+              "timedOut": null,
+              "duration": 714,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.click_on_checkbox();",
+              "err": {},
+              "uuid": "6d38d993-9b11-4309-aa4f-680833bcb365",
+              "parentUUID": "e18701c4-6abc-469e-8e09-efda64122c68",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test4-dropdown testing",
+              "fullTitle": "Harver Frontend Test Test4-dropdown testing",
+              "timedOut": null,
+              "duration": 634,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.click_on_dropdown();",
+              "err": {},
+              "uuid": "96124c92-2914-425c-87cc-53957d5976de",
+              "parentUUID": "e18701c4-6abc-469e-8e09-efda64122c68",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test5-forgotpassword testing",
+              "fullTitle": "Harver Frontend Test Test5-forgotpassword testing",
+              "timedOut": null,
+              "duration": 1198,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhomepage.click_on_forgot_password(this.data.email);",
+              "err": {},
+              "uuid": "10fa003a-0984-4283-b1d7-b1adade30e45",
+              "parentUUID": "e18701c4-6abc-469e-8e09-efda64122c68",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d224312a-0102-4fd6-9029-0d448916ef4d",
+            "8764d0cf-a2b2-4e2e-967f-214f6537f77f",
+            "6d38d993-9b11-4309-aa4f-680833bcb365",
+            "96124c92-2914-425c-87cc-53957d5976de",
+            "10fa003a-0984-4283-b1d7-b1adade30e45"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5112,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "ExampleTest-TestResults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/test_reports",
+        "reportFilename": "ExampleTest-TestResults"
+      },
+      "version": "6.0.1"
+    }
+  }
+}
